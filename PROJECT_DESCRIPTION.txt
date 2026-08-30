@@ -1,0 +1,112 @@
+================================================================================
+                    RATIO — LEGAL THINKING & SPEAKING GYM
+                             Project Description
+================================================================================
+
+1. PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+Ratio is an interactive, web-based legal training platform designed specifically
+for Indian law students, moot court competitors, judicial service aspirants, and
+aspiring trial/appellate advocates. 
+
+Named after the foundational legal concept "Ratio Decidendi" (the legal rationale
+or principles behind a judicial decision), Ratio provides a structured, high-intensity
+workout environment to develop three critical skills:
+  1. Rapid Legal Concept Recall
+  2. Time-Bound Legal Research & Analysis
+  3. Succinct, High-Pressure Oral Advocacy & Synthesis
+
+--------------------------------------------------------------------------------
+2. THE PROBLEM IT SOLVES
+--------------------------------------------------------------------------------
+In traditional legal education, students often spend hours reading lengthy case briefs
+and commentaries, but rarely get the opportunity to practice spontaneous, timed oral
+advocacy. 
+
+When faced with unexpected judicial queries on the bench, moot court interruptions, or
+client consultations, many advocates struggle to condense complex legal principles into
+clear, 60-second oral summaries.
+
+Ratio addresses this gap by creating an "on-demand legal gym" where users cannot predict
+the legal topic drawn, forcing them to:
+  - Quickly retrieve legal knowledge under pressure.
+  - Locate relevant Bare Act sections, precedents, or theoretical principles within a 10-minute research window.
+  - Articulate a cogent, persuasive legal explanation in exactly 60 seconds.
+
+--------------------------------------------------------------------------------
+3. HOW RATIO IS USEFUL FOR USERS
+--------------------------------------------------------------------------------
+A. Moot Court Preparation:
+   - Simulates surprise bench questioning and sharpens impromptu oral submissions.
+
+B. Judicial Services & Bar Examination Preparation:
+   - Reinforces memory of core constitutional doctrines, statutory sections, landmark Supreme Court cases, legal maxims, and jurisprudence.
+
+C. Courtroom Advocacy Skills:
+   - Teaches advocates how to state the core "Ratio" of a case without rambling, using precise legal terminology.
+
+D. Self-Assessment & Voice Recording:
+   - Users can record their speech, listen back to analyze their tone, pace, and clarity, and read automated speech-to-text transcripts.
+
+--------------------------------------------------------------------------------
+4. KEY FEATURES & FUNCTIONALITY
+--------------------------------------------------------------------------------
+• 3D Slot Machine Topic Reel:
+  When a user clicks "DRAW TOPIC", a 3-second slot-machine drum reel animates, 
+  decelerating smoothly and locking onto a random legal topic with audio feedback.
+
+• Comprehensive 150+ Legal Topic Library Across 17 Practice Categories:
+  1. Constitutional Law (Basic Structure, Article 21, Article 32 Writs, Federalism, Article 44 UCC)
+  2. Jurisprudence & Legal Theory (Positivism, Natural Law, Hart-Fuller Debate, Legal Realism)
+  3. Landmark Indian & Global Cases (Kesavananda Bharati, Maneka Gandhi, Puttaswamy, Donoghue v. Stevenson)
+  4. Statutes & Legislation (BNS vs. IPC, RTI Act 2005, IBC 2016, DPDP Act 2023, IT Act, PMLA)
+  5. Contract Law (Frustration Sec 56, Promissory Estoppel, Minor Agreements, Smart Contracts)
+  6. Law of Torts (Strict vs. Absolute Liability, Vicarious Liability, Defamation, Medical Negligence)
+  7. Criminal Law & Criminology (Culpable Homicide vs. Murder, Insanity Defense, Death Penalty)
+  8. Property Law (Lis Pendens, Rule Against Perpetuity, Part Performance, Mortgages)
+  9. Administrative Law (Delegated Legislation, Legitimate Expectation, Wednesbury Test)
+  10. International Law (UNCLOS, R2P, Diplomatic Immunity, ICJ Jurisdiction)
+  11. Human Rights Law (Non-Refoulement, UDHR, Custodial Violence & DK Basu Guidelines)
+  12. Legal Ethics & Responsibility (Contempt of Court, Advocate Duties, Free Legal Aid Art 39A)
+  13. Judicial Institutions & Bench Dynamics (Collegium vs. NJAC, PIL Evolution, Recusal)
+  14. Legal Maxims (Audi Alteram Partem, Nemo Judex, Res Ipsa Loquitur, Actus Reus/Mens Rea)
+  15. Logical Fallacies in Advocacy (Straw Man, Ad Hominem, Slippery Slope, Red Herring)
+  16. Legal History & Evolution (Magna Carta, Code of Hammurabi, Constituent Assembly Debates)
+  17. All Categories Practice Mode.
+
+• Retracting Circular Progress Timer:
+  Visual SVG circle outline that retracts counter-clockwise as time counts down. 
+  Features a circular settings button to configure research durations (3m, 5m, 10m, 15m, 20m, or custom).
+
+• 60-Second Speech Studio with Waveform & Transcription:
+  Real-time audio waveform visualization, microphone recording, and automatic 
+  speech-to-text transcription powered by Web Speech API.
+
+• Local IndexedDB History Log:
+  Sessions are saved locally in the browser's IndexedDB database (`ratio_db`). Users can 
+  replay past voice recordings, read transcripts, check date/time stamps, or purge records.
+
+• Custom Glassmorphic Modal System:
+  In-app custom React dialogs for post-session saving and session deletion confirmations.
+
+• Default Dark Theme:
+  Modern dark aesthetic (`#080C0A`) with glowing emerald accents (`#10B981`) and Garamond serif typography.
+
+--------------------------------------------------------------------------------
+5. TECHNICAL ARCHITECTURE
+--------------------------------------------------------------------------------
+- Framework: React 18 with TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS & Custom CSS Variables (Glassmorphism design system)
+- Database: IndexedDB via `idb` wrapper
+- Audio Synthesis & Ticking: Web Audio API (Oscillators & Gain Nodes)
+- Speech Recognition: Web Speech API (`webkitSpeechRecognition`)
+- Audio Recording: MediaRecorder API
+
+--------------------------------------------------------------------------------
+6. CREATOR INFORMATION
+--------------------------------------------------------------------------------
+Created by: Mayur (@just.mayur.784)
+Instagram: https://www.instagram.com/just.mayur.784?igsi=YXJpemt5bXFpdm93
+Application Name: Ratio — Think. Research. Speak.
+================================================================================
